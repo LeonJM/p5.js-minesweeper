@@ -57,9 +57,9 @@ function mousePressed() {
         if (!grid[x][y].marked) {
             grid[x][y].mark();
         }
-        if (grid[x][y].marked) {
-            grid[x][y].unmark();
-        }
+        //if (grid[x][y].marked) {
+            //grid[x][y].unmark();
+        //}
     }
 }
 
