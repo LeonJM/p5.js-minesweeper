@@ -18,7 +18,6 @@ function makeDoubleArray(x,y) {
 }
 
 function setup() {
-	document.addEventListener('contextmenu', event => event.preventDefault());
     createCanvas(canvasWidth + 1, canvasHeight + 1);
     cols = floor(width/w);
     rows = floor(height/w);
