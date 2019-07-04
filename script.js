@@ -43,6 +43,9 @@ function setup() {
 
 function mousePressed() {
     //check
+	//left click marked cells to unmark them
+	//left click unmarked cells to reveal them
+	//right click unmarked cells to mark them
     var x = floor(mouseX/w);
     var y = floor(mouseY/w);
     if (mouseButton == LEFT) {
