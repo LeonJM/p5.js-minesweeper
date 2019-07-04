@@ -14,6 +14,7 @@ instead of
 ```
 
 makes the right click functionality of the mousePressed() not work. Note: only the right click.
+Right clicking an empty cell fills the cell red.
 
 The context menu is disabled in the html body. `<body oncontextmenu = "return false">`
 
