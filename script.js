@@ -3,7 +3,7 @@ var x;
 var cols;
 var rows;
 
-var percentile = 0.2; //possibility of mines on the board, 1 = 100% 0 = 0%
+var percentile = 0.1; //possibility of mines on the board, 1 = 100% 0 = 0%
 var canvasWidth = 400;
 var canvasHeight = 400;
 
